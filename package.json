@@ -1,0 +1,33 @@
+{
+  "name": "@websanova/vue-fa",
+
+  "description": "Convert font-awesome svg to vue components.",
+
+  "keywords": ["vue", "vue.js", "font-awesome", "font", "svg", "fa"],
+
+  "author": {
+    "name": "Websanova",
+    "url": "http://websanova.com",
+    "username": "websanova",
+    "email": "rob@websanova.com"
+  },
+  
+  "main": "",
+  
+  "version": "0.1.2",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/vue-fa"
+  },
+
+  "licenses": "MIT, GPL",
+    
+  "dependencies": {},
+  
+  "devDependencies": {},
+  
+  "scripts": {
+    "build": "node ./build.js"
+  }
+}

@@ -1,0 +1,56 @@
+.ico {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+}
+
+.ico.fw {
+    width: 20px;
+    text-align: center;
+}
+
+.ico.fw.lg {width: 1.33333333em}
+.ico.fw.x2 {width: 2em}
+.ico.fw.x3 {width: 3em}
+.ico.fw.x4 {width: 4em}
+.ico.fw.x5 {width: 5em}
+
+.ico.lg {height: 1.33333333em}
+.ico.x2 {height: 2em}
+.ico.x3 {height: 3em}
+.ico.x4 {height: 4em}
+.ico.x5 {height: 5em}
+
+.ico.spin {
+    -webkit-animation: ico-spin 2s infinite linear;
+    animation: ico-spin 2s infinite linear;
+}
+
+.ico > svg {
+    fill: currentColor;
+    height: 100%;
+}
+
+@-webkit-keyframes ico-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes ico-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
