@@ -12,13 +12,15 @@
     text-align: center;
 }
 
-.ico.fw.lg {width: 1.33333333em}
-.ico.fw.x2 {width: 2em}
-.ico.fw.x3 {width: 3em}
-.ico.fw.x4 {width: 4em}
-.ico.fw.x5 {width: 5em}
+.ico.fw.lg {width: 27px;}
+.ico.fw.xl {width: 34px;}
+.ico.fw.x2 {width: 40px;}
+.ico.fw.x3 {width: 60px;}
+.ico.fw.x4 {width: 80px;}
+.ico.fw.x5 {width: 100px;}
 
 .ico.lg {height: 1.33333333em}
+.ico.xl {height: 1.66666666em}
 .ico.x2 {height: 2em}
 .ico.x3 {height: 3em}
 .ico.x4 {height: 4em}
